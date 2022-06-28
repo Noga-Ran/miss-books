@@ -1,0 +1,53 @@
+@import 'roots.css';
+@import 'homePage.css';
+@import 'about-page-style.css';
+@import 'header-style.css';
+@import 'footer-style.css';
+@import 'book-list-style.css';
+@import 'selected-book style.css';
+@import 'add-book-style.css';
+
+* {
+    box-sizing: border-box;
+}
+
+html{
+    color: var(--txt-c);
+    background-color: var(--lb);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+body{
+    margin:0;
+}
+
+.books-container, .selected-book{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.book-pre-c{
+    margin: 10px;
+}
+
+.user-msg{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.user-msg p{
+    margin:10px;
+    padding: 10px;
+    border: double var(--lp) 5px;
+    background-color: var(--mp);
+}

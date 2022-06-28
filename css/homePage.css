@@ -1,0 +1,26 @@
+.home-page{
+    background-color: #C8A2C8;
+    margin-top: 40px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.home-page h3{
+    text-transform: capitalize;
+}
+
+.home-page img{
+    width: 50vw;
+    padding-top: 20px;
+}
+
+.home-page span{
+    color: darkred;
+}
+
